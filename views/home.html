@@ -1,0 +1,23 @@
+<md-content>
+    <table class="orders-table">
+        <thead>
+            <th ng-click="vm.sortOrders('client_id')">Client ID</th>
+            <th ng-click="vm.sortOrders('name')">Order</th>
+            <th ng-click="vm.sortOrders('destination')">Destination</th>
+            <th ng-click="vm.sortOrders('created_at')">Created at</th>
+            <th ng-click="vm.sortOrders('updated_at')">Last updated at</th>
+            <th ng-click="vm.sortOrders('weight')">Weight</th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="order in vm.orders">
+                <td>{{order.client_id}}</td>
+                <td>{{order.name}}</td>
+                <td>{{order.destination}}</td>
+                <td>{{order.created_at | date: 'medium'}}</td>
+                <td>{{order.updated_at | date: 'medium'}}</td>
+                <td>{{order.weight}}</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</md-content>

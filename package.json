@@ -1,0 +1,25 @@
+{
+  "name": "applift",
+  "version": "1.0.0",
+  "description": "Angularjs, javascript, test case",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobbit1mx/applift.git"
+  },
+  "keywords": [
+    "asdas"
+  ],
+  "author": "Alfredo Castañeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hobbit1mx/applift/issues"
+  },
+  "homepage": "https://github.com/hobbit1mx/applift#readme",
+  "dependencies": {
+    "wiredep": "^4.0.0"
+  }
+}

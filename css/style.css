@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+}
+
+.orders-table{
+    width: 100%;
+}
+.orders-table td{
+    text-align: center;
+}
+.orders-table thead > tr > th{
+    cursor: pointer;
+    background: #005500;
+    color: #FFFFFF;
+}
+.orders-table thead > tr > th:hover{
+    background: #FFFFFF;
+    color: #000000;
+}
+.orders-table > tbody > tr{
+    height: 80px;
+}
+.orders-table tr:hover{
+    background-color: #f5f5f5;
+}
